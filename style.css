@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'DotMatrix Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DotMatrix Regular'), url('./fontfamily/dotMatrix/DOTMATRX.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'DotMatrix_TR Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DotMatrix_TR Regular'), url('./fontfamily/dotMatrix/DotMatrix_TR.woff') format('woff');
+    }
+
+body {
+    background-color:rgb(33, 33, 33);
+}
+
+header {
+    padding-top: 1em;
+    background-color: black;
+}
+
+.dotTitle {
+    
+    font-family:'DotMatrix Regular';
+    font-size: 5em;
+    text-align: center;
+    color:orange;
+}
+
+.brandPinball {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.brandPinball li {
+    margin-top: 8em;
+    flex-basis: 33%;
+}
+
+.brandPinball li img{
+width: 20vw;
+}
